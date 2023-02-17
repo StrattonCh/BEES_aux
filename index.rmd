@@ -1,0 +1,88 @@
+---
+title: "BEES Meeting Archive"
+description: |
+  An .html archive of previous meeting of the Bozeman Ecological and Environmental Statistics Group
+author:
+  - name: Christian Stratton
+    affiliation: Bozeman Ecological and Environmental Statistics
+    affiliation_url: https://bozemanenvrstat.github.io/
+  - name: John Smith
+    affiliation: Bozeman Ecological and Environmental Statistics
+    affiliation_url: https://bozemanenvrstat.github.io/
+  - name: Andrew Hoegh
+    affiliation: Bozeman Ecological and Environmental Statistics
+    affiliation_url: https://bozemanenvrstat.github.io/
+date: "`r Sys.Date()`"
+output: 
+  distill::distill_article:
+    self_contained: false
+    toc: true
+    toc_depth: 2
+bibliography: bibliography.bib
+csl: biometrics_notes.csl
+---
+
+# 2023/02/02 paper discussion
+
+## Purpose
+
+Review of [The recent past and promising future for data integration methods to estimate species' distributions](https://doi.org/10.1111/2041-210X.13110) [@miller2019a] led by Jacob Oram. 
+
+## Notes and focused questions
+
+### Question 1: Who is the audience of this paper?
+
+- quantitative ecologists
+- statisticians
+- it's pretty accessible with any terms well defined
+- statistically savvy wildlife managers, or others that have access to multiple data streams for monitoring
+- someone who is ecologically motivated and has a working knowledge of statistics
+
+### Question 2: What are the canonical references (papers) for these methods?
+
+- Pacifici, 2017
+- MacKenzie et al
+- Guisan & Thuiller
+- Phillips, Anderson & Schapire
+- Reich, Pacifici & Stallings
+- really wide array depending on what models you're focusing on 
+
+### Question 3: What do the authors already assume the readers know?
+
+- at least a vague knowledge Poisson processes
+- working knowledge of SDMs
+- working knowledge of occupancy modeling framework
+- working knowledge of data integration and how that differs from just analyzing one data set, or two data sets separately
+
+### Question 4: What problem is the paper addressing? What is the motivation? Some generic examples: include resolving a deficiency, exploring a new situation/data, making an extension, addressing computational limitations, enhancing fidelity,...
+
+- the whole class of methods is trying to harness more information 
+- review of various data integration methods used in ecology
+
+### Question 5: What do you like or could you use in your own writing and research?
+
+- the table of terms and definitions on pg 2 (Table 1)
+- quotes from the book, "Sea of Cortex" - Steinbeck and Ricketts (1941)
+- worked example (that's in the Appendix, makes the paper accessible)
+- the structure looks different for a lit-review style paper (like this) vs the alternative
+- key ideas in conclusion (1-5 bulleted list)
+- the flow of the paper was excellent
+- synergize the terminology around data integration
+
+### Discussion of Figure 2
+
+- the joint species distribution model models the same parameter or a set of shared parameters
+- the covariate image describes using one data set of estimated parameters as a set of covariates to model another process
+  - it is possible (and likely?) to underestimate uncertainty here
+- covariate method is the most approachable
+
+### Discussion of validation
+
+- do we really add value with including another data source? 
+- could incorporate decision analysis
+
+### How do the authors know each other? 
+
+- in the acknowledgements: potentially SAMSI Mathematical/Statistical Ecology workshop
+
+
