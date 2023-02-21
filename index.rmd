@@ -1,15 +1,9 @@
 ---
-title: "BEES Meeting Archive"
+title: "BEES meeting archive"
 description: |
-  An .html archive of previous meeting of the Bozeman Ecological and Environmental Statistics Group
+  An .html archive of previous meetings of the Bozeman Ecological and Environmental Statistics Group
 author:
-  - name: Christian Stratton
-    affiliation: Bozeman Ecological and Environmental Statistics
-    affiliation_url: https://bozemanenvrstat.github.io/
-  - name: John Smith
-    affiliation: Bozeman Ecological and Environmental Statistics
-    affiliation_url: https://bozemanenvrstat.github.io/
-  - name: Andrew Hoegh
+  - name: Barry B. Benson
     affiliation: Bozeman Ecological and Environmental Statistics
     affiliation_url: https://bozemanenvrstat.github.io/
 date: "`r Sys.Date()`"
@@ -22,13 +16,21 @@ bibliography: bibliography.bib
 csl: biometrics_notes.csl
 ---
 
-# 2023/02/02 paper discussion
+# 2023/02/09 work-in-progress presentation
 
-## Purpose
+__Title:__
+
+__Author:__ Jacob Oram
+
+__Abstract:__ Large-scale monitoring programs increasingly use autonomous recording units (ARUs) to efficiently gather data from species assemblages, which are then used in statistical models to estimate ecological parameters of interest and inform conservation decisions. Typically, ARU observations are pre-processed and classified to species using automated software algorithms. This process is known to introduce misclassification errors in species labels at the observation level, which can bias estimates of ecological parameters if ignored in statistical models. Manual verification of a subset of observations by trained experts (i.e., coupled classification) is one available method of accounting for misclassification within the statistical model. However, previous investigations of coupled classification and validation effort found an impractical number of verified ARU recordings were required to obtain consistent model convergence of rare species classification parameters. We conduct a simulation study that explores stratified-by-species sampling of ARU recordings, allowing unequal validation effort for different species and providing a flexible framework for reducing validation costs for practitioners. We found that 1) for rare and relatively inactive species, validating 100% of calls is a viable avenue for obtaining reliable inference of occurrence and relative activity parameters, and 2) the greatest cost savings can be obtained by reducing effort for extremely prevalent and active species (when present), and assigning effort to remaining species according to monitoring objectives. Our findings indicate that a tailored vetting design based on cost constraints and monitoring priorities can provide researchers with control of the programmatic costs of implementing a coupled-classification model for ecological studies.
+
+# 2023/02/02 paper discussion
 
 Review of [The recent past and promising future for data integration methods to estimate species' distributions](https://doi.org/10.1111/2041-210X.13110) [@miller2019a] led by Jacob Oram. 
 
 ## Notes and focused questions
+
+The following focus questions were selected by Jacob prior to the discussion. Notes taken by Meaghan Winder.
 
 ### Question 1: Who is the audience of this paper?
 
