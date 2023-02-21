@@ -16,6 +16,9 @@ bibliography: bibliography.bib
 csl: biometrics_notes.csl
 ---
 
+<!-- email: bozemaneestats@gmail.com -->
+<!-- pass: bees2023 -->
+
 # 2023/02/09 work-in-progress presentation
 
 __Title:__ Stratified-by-species sampling for validation of acoustic monitoring data
