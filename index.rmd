@@ -18,7 +18,7 @@ csl: biometrics_notes.csl
 
 # 2023/02/09 work-in-progress presentation
 
-__Title:__
+__Title:__ Stratified-by-species sampling for validation of acoustic monitoring data
 
 __Author:__ Jacob Oram
 
