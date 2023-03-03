@@ -19,7 +19,7 @@ csl: biometrics_notes.csl
 <!-- email: bozemaneestats@gmail.com -->
 <!-- pass: bees2023 -->
 
-# 2023/03/02 work-in-progress presentation
+# Work-in-progress presentation 2023/03/02
 
 This meeting featured writing project presentations from four students, including guest appearances from two students not focused on ecological statistics. 
 
@@ -61,7 +61,7 @@ __Abstract: Insurance claims are crucial to the insurance sector as they allow p
 
 ***
 
-# 2023/02/16 work-in-progress presentation
+# Work-in-progress presentation 2023/02/16 
 
 __Title:__ Stratified-by-species sampling for validation of acoustic monitoring data
 
@@ -71,7 +71,7 @@ __Abstract:__ Large-scale monitoring programs increasingly use autonomous record
 
 ***
 
-# 2023/02/02 paper discussion
+# Paper discussion 2023/02/02
 
 Review of [The recent past and promising future for data integration methods to estimate species' distributions](https://doi.org/10.1111/2041-210X.13110) [@miller2019a] led by Jacob Oram. 
 
