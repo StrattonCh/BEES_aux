@@ -19,6 +19,48 @@ csl: biometrics_notes.csl
 <!-- email: bozemaneestats@gmail.com -->
 <!-- pass: bees2023 -->
 
+# 2023/03/02 work-in-progress presentation
+
+This meeting featured writing project presentations from four students, including guest appearances from two students not focused on ecological statistics. 
+
+<div>
+__Title:__
+
+__Author: Michael Throolin__ 
+
+__Abstract: In the early 1920s, Sewall Wright formulated a set of rules, known as Wright’s Tracing Rules, that were used for decades to compute the effect a treatment had on an outcome. However, controlling for backdoor paths through path analysis has been quickly replaced with modern advances in technology and newer methods- such as regression. This talk will give a brief description of how regression and path analysis are used to compute causal effects and compare the results of each methodology.__
+<hr>
+</div>
+
+<div>
+__Title:__
+
+__Author: Will Hammond__ 
+
+__Abstract: In management contexts, researchers are often motivated to identify interventions to enhance ecosystem recovery following disruptions. If a hypothesis concerning the relationships between variables can be represented as a directed acyclic graph (DAG), structural causal modeling (SCM) can allow researchers to test their causal hypotheses and identify mediating variables. Using a short time series from Lassen National Park, I perform a confirmatory causal path analysis to assess the impacts of the 2012 Reading Fire. The original causal hypothesis was poorly aligned with observations from the data: I go on to discuss metrics for model fit and performance, and techniques to help identify the proper causal topology when presented with various causal hypotheses.__
+<hr>
+</div>
+
+<div>
+__Title:__
+
+__Author: McBeth Ahortor__ 
+
+__Abstract: Dimension reduction is a statistical approach that reduces a high dimensional dataset to a low-dimensional space which simplifies data processing, improves computational performance and tractability, and enhances presentation and interpretability of scientific results. Although factor analysis and principal component analysis are two common dimension reduction approaches, they have drawbacks when working with mixed data that contains both categorical and quantitative variables. To perform factor analysis of a mixed dataset on credit risks, this project applies Factor Analysis of Mixed Data (FAMD), an algorithm that combines PCA with MCA. We also apply a variational EM algorithm to identify the factors of this dataset and compare the performance of this method with that of the FAMD. By identifying the most relevant variables that contribute to credit risk and lowering the dimensionality of the dataset, credit risk analysis and management can be made more efficient and accurate while maintaining crucial information from categorical variables.__
+<hr>
+</div>
+
+<div>
+__Title:__
+
+__Author: Seth Okyere__ 
+
+__Abstract: Insurance claims are crucial to the insurance sector as they allow policyholders to receive compensation for losses or damages covered by their insurance policies. However, when large claims occur, they can have a significant impact on the financial performance of an insurance company. If an insurer underestimates the frequency or severity of such claims, it could result in a substantial financial loss that may put the solvency of the company at risk. The primary objective of this research is to determine the most suitable count regression model for predicting claim frequencies and to explore the factors that affect the number of reported claims for a group of insurance claims filed by companies in Ireland. Various count distributions are utilized to predict large claims from Insurance Ireland and the model that best fits the data is evaluated using AIC, Pearson residuals and Rootogram. The hurdle negative binomial model appeared to be the best model for predicting the large claims because of the overdispersion caused by the excess number of zero large claims and larger variation in the large claims distribution.__
+<hr>
+</div>
+
+***
+
 # 2023/02/16 work-in-progress presentation
 
 __Title:__ Stratified-by-species sampling for validation of acoustic monitoring data
@@ -26,6 +68,8 @@ __Title:__ Stratified-by-species sampling for validation of acoustic monitoring 
 __Author:__ Jacob Oram
 
 __Abstract:__ Large-scale monitoring programs increasingly use autonomous recording units (ARUs) to efficiently gather data from species assemblages, which are then used in statistical models to estimate ecological parameters of interest and inform conservation decisions. Typically, ARU observations are pre-processed and classified to species using automated software algorithms. This process is known to introduce misclassification errors in species labels at the observation level, which can bias estimates of ecological parameters if ignored in statistical models. Manual verification of a subset of observations by trained experts (i.e., coupled classification) is one available method of accounting for misclassification within the statistical model. However, previous investigations of coupled classification and validation effort found an impractical number of verified ARU recordings were required to obtain consistent model convergence of rare species classification parameters. We conduct a simulation study that explores stratified-by-species sampling of ARU recordings, allowing unequal validation effort for different species and providing a flexible framework for reducing validation costs for practitioners. We found that 1) for rare and relatively inactive species, validating 100% of calls is a viable avenue for obtaining reliable inference of occurrence and relative activity parameters, and 2) the greatest cost savings can be obtained by reducing effort for extremely prevalent and active species (when present), and assigning effort to remaining species according to monitoring objectives. Our findings indicate that a tailored vetting design based on cost constraints and monitoring priorities can provide researchers with control of the programmatic costs of implementing a coupled-classification model for ecological studies.
+
+***
 
 # 2023/02/02 paper discussion
 
